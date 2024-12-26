@@ -1,0 +1,36 @@
+hierarchy
+
+[ Node (Physical Machine or Virtual Machine) ]
+  └── [ Operating System (Linux/Windows) ]
+        └── [ Docker Runtime Environment ]
+              └── [ Kubernetes Node Components ]
+                    ├── Kubelet (Communicates with Control Plane)
+                    ├── Kube Proxy (Manages Networking)
+                    ├── Pod(s) (Hosted Workloads)
+                          └── [ Container(s) ]
+                                └── Application Code & Dependencies
+
+
+
+mini kube installation
+
+1)first we should create minikube utility.
+
+
+https://kubernetes.io/docs/concepts/
+https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
+
+
+https://www.udemy.com/course/learn-kubernetes/learn/lecture/9742478#overview
+https://uklabs.kodekloud.com/topic/labs-familiarize-with-lab-environment-2/
+https://uklabs.kodekloud.com/topic/labs-pods-with-yaml-2/
+
+
+
+
+Minikube installation.
+1.download kubernet ctl from the official page.
+https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/#install-kubectl-on-windows
+2.install minikube from here.
+https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2Fwindows+package+manager
+Follow the command mentioned in the above link.
